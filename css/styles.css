@@ -6,6 +6,9 @@
 
 body {
     margin: 0; /* Ingen kanter i siden af browser */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +24,7 @@ ul, ol {
 
 li {
     margin: 0; /* Ingen ydre margen fra listpunkter */
+    text-decoration: none;
 }
 
 p {
@@ -33,4 +37,24 @@ img {
     display: block; /* Billeder er et element (laver linjeskift) */
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
+}
+
+.overskrift{
+    text-align: center;
+    font-family: Poppins;
+    color: black;
+}
+
+.knap{
+    font-family: Poppins;
+    font-size: 2rem;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+a{
+    text-decoration: none;
 }

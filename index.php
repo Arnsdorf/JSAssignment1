@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>JS Uge 1</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -28,8 +28,25 @@
 <body>
 
 
-<h2>Cool</h2>
+<div class="container">
+    <div class="overskrift">
+        <h1>Velkommen Til Første Uge Med JS</h1>
+    </div>
+</div>
 
+
+
+<a class="knap" target="_blank" href="http://hecamefromsporting.com/canvas/">Canvas</a>
+<a class="knap" target="_blank" href="http://hecamefromsporting.com/slidescroll/">SlideScroll</a>
+<a class="knap" target="_blank" href="http://hecamefromsporting.com/stripe/">Stripe</a>
+<a class="knap" target="_blank" href="http://hecamefromsporting.com/flexgalleri/">Gallery</a>
+<a class="knap" target="_blank" href="http://hecamefromsporting.com/stickynav/">StickyNav</a>
+<a class="knap" target="_blank" href="http://hecamefromsporting.com/drumkit/">DrumKit</a>
+<a class="knap" target="_blank" href="http://hecamefromsporting.com/jsclock/">JSClock</a>
+<a class="knap" target="_blank" href="http://hecamefromsporting.com/clickdrag/">Click&Drag</a>
+
+
+<a class="knap" target="_blank" href="https://github.com/Arnsdorf/JSAssignment1">Github Repo</a>
 
 </body>
 </html>
